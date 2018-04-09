@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Fiona;
+    src: url(../fonts/pacifico/Pacifico.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/oswald/Oswald-Regular.ttf);
+}
+body{
+    height:100%;
+    width:100%;
+    margin-right: 5%;
+    background-image: url("home.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #666;
+}
+h4 { 
+  color: #FFCA28; 
+  text-shadow: 10px 1 white, 1 10px white, 15px 1 white, 1 20px white; 
+  background: rgba(0, 0, 0, .80); 
+  font-size: 175px; 
+  line-height: 75px; 
+  font-weight: 500; 
+  margin: 0 5px 24px; 
+  float: center; 
+  align: left;
+  padding: 24px; 
+  margin: 0 5px 24px; 
+  font-family: Fiona; 
+  font-size: 50px; 
+  font-weight: lighter; 
+  line-height: 48px; 
+  margin: 0 0 50px; 
+  text-align: left; 
+  text-shadow: 1px 1px 2px #082b94;
+}
+
+.tabs_button{
+  margin: 0 0px -5px; 
+  /*float: left;*/
+  font-family: Oswald;
+  margin-top: -40px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, .70);
+  text-align: center;
+  padding: 2px 2px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+  vertical-align: 5px; 
+}
+
+.search{
+  float: right;
+  margin-top: -40px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, .45);
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+
+div.searchbox {
+  display: inline-block;
+     }
+
+div.box {
+  display: inline-block;
+     }
+div.postbox {
+    display: inline-block;
+    text-align: center;
+    float: center;
+    background-color: rgba(255, 255, 255, .15);
+    margin: 10px 10 10px 10;
+    padding: 10px;
+    font-family: Arial;
+} 
+div.imagebox {
+  border: 1px black solid;
+    height: 64px;
+    width: 64px;
+    background: #444;
+    display: table-cell;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    float: center;
+    background-color: rgba(255, 255, 255, .15);
+    margin: 10px 10 10px 10;
+}
+.imagebox img {
+    display:block;
+    margin: 0px auto;
+}
+     
+input[type="text"],input[type="password"],input[type="email"],input[type="number"],input[type="date"] {
+    width: 200px;
+    display: inline-block;
+    border: 1px solid #FFCA28;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFCA28;
+    background-color: black;
+    padding: 10px;
+  }
+textarea{
+  width: 200px;
+    display: inline-block;
+    border: 1px solid #FFCA28;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFCA28;
+    background-color: black;
+    padding: 10px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  font-size: 5px;  
+  width: 10px;  
+}
+
+select {
+        width: 200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        }
+
+div.container{
+    width: 1300px;
+    background-color: rgba(0, 0, 0,.10);
+    margin: auto;
+    margin-top: 120px;
+}
+
+p{  width: 1250px;
+    align: center;
+    border: 2px solid #FFCA28;
+    font-size: 30px;
+    color: #FFCA28;
+    background-color: rgba(0,0,0,.70);
+    padding: 10px;
+    margin: auto;
+    overflow: ellipsis;
+    display:i inline-block;
+    position: relative;   
+    float: center;
+    white-space: pre-line;
+    clear: left;
+    margin-left: 20px;
+  }

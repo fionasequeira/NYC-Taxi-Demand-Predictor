@@ -1,0 +1,188 @@
+li {color: blue; font-family: verdana;font-size: 100%;}
+
+body{
+    height:100%;
+    width:100%;
+    margin-right: 5%;
+    background-image: url("../../app/login.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #666;
+}
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  height: 100%;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+button {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Oswald';
+  font-weight: 10px;
+  color: #FFCA28;
+  font-size: 20px;
+  background: black;
+  padding: 10px;
+  text-decoration: inherit;
+  text-align: center;
+  vertical-align: center;
+  border: 3px solid;
+  border-radius: 15px;
+}
+
+button:hover {
+  color: black;
+  background-color: #FFCA28;
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+  background-color: #FFCA28 !important;
+  text-decoration: none;
+}
+
+button:active {
+  color: black;
+  background-color: #FFCA28;
+  text-decoration: none;
+}
+
+
+h2 { 
+  color: white; 
+  text-shadow: 1px 1 white, 1 1px black, 1px 0 black, 0 -1px black; 
+  background: rgba(0, 0, 0, .70); font-size: 25px; 
+  line-height: 15px; 
+  font-weight: 200; 
+  margin: 0 5px 10px; 
+  float: center; 
+  padding: 20px; 
+  margin: 0 5px 10px; 
+  text-align: center; 
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 { 
+  color: white; 
+  text-shadow: 1px -1 black, 1 0px black, 0px 1 black, 0 1px black; 
+  line-height: 15px; 
+  font-size: 20px; 
+  font-weight: 100; 
+  float: left; 
+  padding: 5px; 
+  margin: 2px; 
+  font-family: 'Oswald', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+h4 { 
+  color: #FFCA28; 
+  text-shadow: 10px 1 white, 1 10px white, 15px 1 white, 1 20px white; 
+  background: rgba(0, 0, 0, .80); 
+  font-size: 175px; 
+  line-height: 75px; 
+  font-weight: 500; 
+  margin: 0 5px 24px; 
+  float: center; 
+  padding: 40px; 
+  margin: 0 5px 24px; 
+  font-family: pacifico; 
+  font-size: 100px; 
+  font-weight: lighter; 
+  line-height: 48px; 
+  margin: 0 0 50px; 
+  text-align: center; 
+  text-shadow: 1px 1px 2px #082b94;
+}
+
+ h1 { 
+  color: #FFCA28; 
+  text-shadow: 10px 1 white, 1 10px white, 15px 1 white, 1 20px white; 
+  background: rgba(0, 0, 0, .80); 
+  font-size: 175px; 
+  line-height: 75px; 
+  font-weight: 500; 
+  margin: 0 5px 24px; 
+  float: center; 
+  padding: 24px; 
+  margin: 0 5px 24px; 
+  font-family: pacifico; 
+  font-size: 50px; 
+  font-weight: lighter; 
+  line-height: 48px; 
+  margin: 0 0 50px; 
+  text-align: left; 
+  text-shadow: 1px 1px 2px #082b94;
+}
+
+.signin {
+  float: center;
+  text-align: center;
+  vertical-align: center;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(10, 10, 10, .50);
+  border: 1px solid rgba(10,10,10,.2);  
+  }
+
+.heading {
+  text-align: center;
+  vertical-align: center;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(0, 0, 0, .50);
+  border: 1px solid rgba(0,0,0,0.1);  
+  }
+
+
+/*.form-control {
+    position: relative;
+    font-size: 20px;
+    height: auto;
+    padding: 20px;
+
+  }*/
+
+.imageformat {
+  float: center;
+  text-align: center;
+  vertical-align: center;
+  font-size: 10px;
+  max-width: 1000px;
+  background: rgba(10, 250, 10, .50);
+  border: 5px solid rgba(0,255,0,.5);  
+
+  }
+
+  input[type="text"],input[type="password"],input[type="email"],input[type="number"],input[type="date"] {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0px;
+    outline: 0;
+    padding: 10px;
+    width: 70%;
+    background-color: #e8eeef;
+    color:#8a93a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 20px;
+  }
+
+}
